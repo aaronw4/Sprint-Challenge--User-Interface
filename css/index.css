@@ -192,11 +192,35 @@ body {
 .about-page{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+    height: 980px;  
 }
 
 .items{
     width: 48%;
+    border-bottom: 1px black dashed;
+    margin-bottom: 50px;
 }
+
+.items h2{
+    padding-top: 10px;
+}
+
+.items p{
+    padding-bottom: 30px;
+}
+
+.items a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    padding: 7px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
 footer {
     width: 100%;
     background: black;
