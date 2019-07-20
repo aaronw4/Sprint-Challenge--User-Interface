@@ -194,7 +194,8 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     padding-top: 10px;
-    height: 980px;  
+    height: 980px;
+    padding-left: 10px  
 }
 
 .items{
@@ -215,10 +216,18 @@ body {
     text-decoration: none;
     font-size: 16px;
     color: black;
-    padding: 7px 20px;
+    padding: 7px 22px 8px 22px;
     border: 1px solid black;
     border-radius: 10px;
     background-color: white;
+}
+
+.itemsBottom{
+    padding-top: 10px;
+}
+
+.letsWork{
+    padding: 0px 20px 40px 20px;
 }
 
 footer {
