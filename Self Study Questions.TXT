@@ -1,0 +1,38 @@
+Demonstrate your understanding of this week's concepts by answering the following free-form questions.
+
+Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
+
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+HTML tags are used to separate sections of a web page.  This is often done with a <div> tag
+However, this tag does not describe what is in this section.
+Semantic HTML, gives tags meaning
+For example we could use <h1> for a header, <p> for a paragraph, or <a> for an anchor tag.
+This makes HTML easier to read for people and search engines.
+
+2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display: block allows you to control the width and height of the item while display: inline does not.
+Display: block has a line break after it while display: inline does not.
+
+3. What are the 4 areas of the box model?
+
+Body, padding, border, and margin.
+
+4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
+Align-items would take place on the cross-axis. I think of it as the y-axis.
+
+5. Explain why git is valuable to a team of developers.
+
+Git allows you to have version control.
+You might write a code and then update it with new code.
+Each time you update the code, that version will be saved.
+This allows you to got back to previous codes for reference or to fix errors.
+
+Git also allows branching.
+Branching allows one or more people to work on a code without changing the master branch.
+Different groups could be working on different parts of the same code, but on different branches.
+You can then merge these different branches later.
+
+You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
