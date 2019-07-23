@@ -66,7 +66,25 @@ p {
     line-height: 1.4;
 }
 
-.container {
+.navTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 20px;
+}
+
+.navTop a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding-right: 45px;
+}
+
+.headerImg{
+    padding: 40px 0px 20px 0px;
+}
+
+body {
     width: 800px;
     margin: 0 auto;
 }
@@ -104,12 +122,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -124,6 +181,53 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.aboutIntro{
+    padding: 0px 20px 20px 20px;
+    border-bottom: 1px black dashed;
+    margin-bottom: 20px;
+}
+
+.about-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+    height: 980px;
+    padding-left: 10px  
+}
+
+.items{
+    width: 48%;
+    border-bottom: 1px black dashed;
+    margin-bottom: 50px;
+}
+
+.items h2{
+    padding-top: 10px;
+}
+
+.items p{
+    padding-bottom: 30px;
+}
+
+.items a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    padding: 7px 22px 8px 22px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.itemsBottom{
+    padding-top: 10px;
+}
+
+.letsWork{
+    padding: 0px 20px 40px 20px;
 }
 
 footer {
